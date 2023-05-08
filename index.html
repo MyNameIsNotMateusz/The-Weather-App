@@ -8,22 +8,27 @@
     <title>Weather App</title>
     <script defer src="./script/sendLocationToHiddenContainer.js"></script>
     <link href="./style/style.css" rel="stylesheet">
-    <link href="./style/form.css" rel="stylesheet">
+    <link href="./style/Container.css" rel="stylesheet">
     <link href="./style/hiddenContainer.css" rel="stylesheet">
     <link href="./style/header.css" rel="stylesheet">
 </head>
 
 <body>
     <h2 class="header js-header">The Weather App</h2>
-    <form class="form js-form">
-        <input class="form--input js-form--input" placeholder="Enter city name" required spellcheck="false">
-        <button class="form--button">🔍</button>
-    </form>
-    <form class="hiddenContainer js-hiddenContainer">
-        <input class="hiddenContainer--input js-hiddenContainerInput" placeholder="Enter city name" required
-            spellcheck="false">
-        <button class="hiddenContainer--button">🔍</button>
-    </form>
+    <div class="container js-container">
+        <input class="container--input js-container--input" placeholder="Enter city name" required spellcheck="false">
+        <button class="container--button js-container--button"><img src="./images/search.png"></button>
+    </div>
+    <div class="hiddenContainer js-hiddenContainer">
+        <div class="hiddenContainer--wrapper">
+            <input class="hiddenContainer--input js-hiddenContainer--input" placeholder="Enter city name" required
+                spellcheck="false">
+            <button class="hiddenContainer--button js-hiddenContainer--button"><img src="./images/search.png"></button>
+        </div>
+        <img src="./images/rain.png" class="weather-icon">
+        <h1>22°C</h1>
+        <h2>New York</h2>
+    </div>
 </body>
 
 </html>

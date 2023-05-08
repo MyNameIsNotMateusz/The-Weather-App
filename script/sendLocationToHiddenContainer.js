@@ -1,16 +1,19 @@
 const sendLocationToHiddenContainer = () => {
-    const form = document.querySelector(".js-form");
-    const formInput = document.querySelector(".js-form--input");
-    const hiddenInput = document.querySelector(".js-hiddenContainerInput");
-    const hiddenContainer = document.querySelector(".js-hiddenContainer")
+    const buttonContainer = document.querySelector(".js-container--button");
+    const inputContainer = document.querySelector(".js-container--input");
+    const container = document.querySelector(".js-container");
 
-    form.addEventListener("submit", (event) => {
-        event.preventDefault();
-        hiddenInput.value = formInput.value;
-        form.style.display = "none";
+    const buttonHiddenContainer = document.querySelector(".js-hiddenContainer--button")
+    const inputHiddenContainer = document.querySelector(".js-hiddenContainer--input");
+    const hiddenContainer = document.querySelector(".js-hiddenContainer");
+
+
+    buttonContainer.addEventListener("click", () => {
+        inputHiddenContainer.value = inputContainer.value;
+        container.style.display = "none";
         hiddenContainer.style.display = "flex";
     });
+
 };
 
 sendLocationToHiddenContainer();
-

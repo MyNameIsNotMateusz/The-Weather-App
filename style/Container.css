@@ -1,4 +1,4 @@
-.form {
+.container {
     background-color: #00ffbfb5;
     width: 400px;
     height: 120px;
@@ -9,24 +9,36 @@
     align-items: center;
 }
 
-.form--input {
+.container--input {
     width: 80%;
     height: 50%;
     border-radius: 5px;
     border: none;
+    outline: 0;
+    font-size: 18px;
+    background-color: #f1e9e9;
 }
 
-.form--button {
-    margin-left: 10px;
-    height: 50%;
-    border-radius: 50%;
+.container--button {
     border: none;
-    cursor: pointer;
+    outline: 0;
+    border-radius: 50%;
+    background-color: #f1e9e9;
+    margin-left: 10px;
+    padding: 7px;
     transition: 1s;
-    padding: 5px 10px;
+    cursor: pointer;
 
     &:hover {
-        background-color: #0008ff1f;
         transform: scale(1.10);
     }
+
 }
+
+.container--button img {
+    display: block;
+    margin: auto;
+    max-width: 60%;
+  }
+  
+
