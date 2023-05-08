@@ -15,6 +15,7 @@ const showDegreesCelsius = () => {
             const tempInKelvin = data.main.temp;
             const tempInCelsius = tempInKelvin - 273.15;
             temperature.textContent = `${tempInCelsius.toFixed(1)}°C`;
+            city.textContent = cityName; // Ustawia nazwę miasta w elemencie h2 z klasą cityName
         })
         .catch(error => console.error(error));
     });
