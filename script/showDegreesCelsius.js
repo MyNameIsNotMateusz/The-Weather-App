@@ -15,10 +15,14 @@ const showDegreesCelsius = () => {
             const tempInKelvin = data.main.temp;
             const tempInCelsius = tempInKelvin - 273.15;
             temperature.textContent = `${tempInCelsius.toFixed(1)}°C`;
-            city.textContent = cityName; // Ustawia nazwę miasta w elemencie h2 z klasą cityName
+            city.textContent = cityName;
         })
-        .catch(error => console.error(error));
+        .catch(error => {
+            console.error(error);
+            temperature.textContent = "UPSSS... I DIDN'T FIND THE LOCATION";
+        });
     });
 };
+
 
 showDegreesCelsius();
