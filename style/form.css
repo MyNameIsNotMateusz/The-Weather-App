@@ -1,0 +1,32 @@
+.form {
+    background-color: #00ffbfb5;
+    width: 400px;
+    height: 120px;
+    padding: 28px 32px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form--input {
+    width: 80%;
+    height: 50%;
+    border-radius: 5px;
+    border: none;
+}
+
+.form--button {
+    margin-left: 10px;
+    height: 50%;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    padding: 5px 10px;
+
+    &:hover {
+        background-color: #0008ff1f;
+        transform: scale(1.10);
+    }
+}

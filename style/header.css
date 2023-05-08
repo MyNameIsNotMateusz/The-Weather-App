@@ -1,0 +1,8 @@
+.header {
+    color: #00ffbf;
+    transition: 1s;
+
+    &:hover {
+        transform: scale(1.10);
+    }
+}
