@@ -12,6 +12,7 @@ const sendLocationToHiddenContainer = () => {
         inputHiddenContainer.value = inputContainer.value;
         container.style.display = "none";
         hiddenContainer.style.display = "flex";
+        buttonHiddenContainer.click();
     });
 
 };

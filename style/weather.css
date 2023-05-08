@@ -1,0 +1,23 @@
+.weather-rain {
+    display: none;
+}
+
+.weather-clear {
+    display: none;
+}
+
+.weather-clouds {
+    display: none;
+}
+
+.weather-drizzle {
+    display: none;
+}
+
+.weather-mist {
+    display: none;
+}
+
+.weather-snow {
+    display: none;
+}

@@ -11,9 +11,14 @@
     flex-direction: column;
 }
 
+
+.hiddenContainer--wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 .hiddenContainer--input {
     width: 80%;
-    height: 8%;
     border-radius: 5px;
     border: none;
     outline: 0;
