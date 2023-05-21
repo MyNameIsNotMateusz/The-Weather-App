@@ -11,6 +11,14 @@
 
 - 📫 How to reach me **mati1otorowski@gmail.com**
 
+- 🤝 How to use my app?
+
+1. Enter the destination where you want to check the weather.
+2. Click the search button.
+3. Thanks to Api, the application will show the temperature and weather conditions.
+
+![Tutorial](https://github.com/MyNameIsNotMateusz/The-Weather-App/blob/main/images/The-Weather-App.gif)
+
 - ⚡ Fun fact **I think I'm very hardworking**
 
 <h3 align="left">Connect with me:</h3>
