@@ -17,7 +17,7 @@
 2. Click the search button.
 3. Thanks to Api, the application will show the temperature and weather conditions.
 
-![Tutorial](https://github.com/MyNameIsNotMateusz/The-Weather-App/blob/main/images/The-Weather-App.gif)
+![Tutorial](https://github.com/MyNameIsNotMateusz/The-Weather-App/blob/main/images/The-Weather-App1.2.gif)
 
 - ⚡ Fun fact **I think I'm very hardworking**
 
